@@ -1,0 +1,38 @@
+/* Remove annoying defaults */
+* {
+    border-radius: 0 !important;
+}
+
+/* Custom Fonts */
+@font-face {
+    font-family: "cubano-sharp";
+    src: url("https://github.com/sowhitedi/SketchLexico/blob/master/fonts/cubano-sharp-webfont-webfont.ttf");
+}
+
+/* Headline */
+.headline {
+    background:
+            linear-gradient(
+                    rgba(126,17,45, 0.45),
+                    rgba(126,17,45, 0.45)
+            ),
+                /* bottom, image */
+            url("../img/header.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #ececec;
+    padding: 5em 2em;
+}
+
+.headline h1 {
+    font-family: "cubano-sharp", sans-serif;
+    font-size: 5em; /* test */
+    margin-bottom: 0;
+}
+
+.headline p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+}
